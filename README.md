@@ -14,11 +14,11 @@ An alpine container containing version 4.0.0 of the [OWASP Dependency Check](htt
 
 ###### run with default settings
 
-`$ docker run --rm -v <project_source>:/tmp/src -v <report_destination_directory>:/tmp/reports -w /tmp/src -w /tmp/reports ictu/owasp-dependency-check`
+`$ docker run --rm -v <project_source>:/tmp/src -v <report_destination_directory>:/tmp/reports -w /tmp/reports ictu/owasp-dependency-check`
 
 ###### run with additional arguments
 
-`$ docker run --rm -v <project_source>:/tmp/src -v <report_destination_directory>:/tmp/reports -w /tmp/src -w /tmp/reports ictu/owasp-dependency-check --enableExperimental --disableBundleAudit "true"`
+`$ docker run --rm -v <project_source>:/tmp/src -v <report_destination_directory>:/tmp/reports -w /tmp/reports ictu/owasp-dependency-check --enableExperimental --disableBundleAudit "true"`
 
 ### Optional Environment Variables
 
