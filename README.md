@@ -4,7 +4,7 @@
 
 ## About owasp-dependency-check
 
-An alpine container containing version 3.3.4 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans.
+An alpine container containing version 4.0.0 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans.
 
 ## Install
 
