@@ -1,10 +1,10 @@
-# owasp-dependency-check with pre-seeded database
+# OWASP Dependency Check with pre-seeded database
 
  [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://github.com/ICTU/owasp-dependency-check/blob/master/LICENSE)
 
-## About owasp-dependency-check
+## About
 
-An alpine container containing version 4.0.0 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans.
+An alpine container containing version 5.0.0M2 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans.
 
 ## Install
 
