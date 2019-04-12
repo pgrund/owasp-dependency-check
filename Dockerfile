@@ -1,6 +1,6 @@
 FROM java:8-alpine
 
-MAINTAINER Dick Snel <dick.snel@ictu.nl
+MAINTAINER Dick Snel <dick.snel@ictu.nl>
 
 ENV PROJECT_NAME "generic"
 
