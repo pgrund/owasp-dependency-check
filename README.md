@@ -1,4 +1,4 @@
-# owasp-dependency-check
+# owasp-dependency-check with pre-seeded database
 
  [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://github.com/ICTU/owasp-dependency-check/blob/master/LICENSE)
 
