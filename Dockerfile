@@ -1,6 +1,6 @@
 FROM java:8-alpine
 
-MAINTAINER Longfei Fu <longfei.fu@ictu.nl>
+MAINTAINER Dick Snel <dick.snel@ictu.nl
 
 ENV PROJECT_NAME "generic"
 
@@ -8,7 +8,7 @@ RUN apk update && \
     apk add bash curl wget && \
     rm -rf /tmp/* /var/cache/apk/*
 
-RUN wget -qO- -O owasp.zip http://dl.bintray.com/jeremy-long/owasp/dependency-check-4.0.0-release.zip && \
+RUN wget -qO- -O owasp.zip http://dl.bintray.com/jeremy-long/owasp/dependency-check-5.0.0-M2-release.zip && \
     unzip owasp.zip && \
     rm owasp.zip && \
     mv dependency-check /tmp/
