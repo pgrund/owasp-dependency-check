@@ -4,7 +4,7 @@
 
 ## About
 
-An alpine container containing version 5.0.0M2 of the [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans.
+A container based on [OWASP Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) CLI, along with a pre-seeded database to speed up scans and prevent hitting rate limits from the database servers.
 
 ## Install
 
