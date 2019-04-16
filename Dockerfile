@@ -1,4 +1,4 @@
-FROM owasp/dependency-check
+FROM owasp/dependency-check:4.0.2
 
 LABEL maintainer="Dick Snel <dick.snel@ictu.nl>"
 
