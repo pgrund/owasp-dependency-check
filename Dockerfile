@@ -15,6 +15,8 @@ RUN chmod +x /tmp/docker-entrypoint.sh
 
 USER dependencycheck
 
+VOLUME ["/tmp/dependency-check/data"]
+
 WORKDIR /tmp/report
 
 ENTRYPOINT ["/tmp/docker-entrypoint.sh"]
