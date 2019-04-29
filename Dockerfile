@@ -4,6 +4,7 @@ LABEL maintainer="Dick Snel <dick.snel@ictu.nl>"
 
 ENV PROJECT_NAME "generic"
 
+RUN mkdir -p /tmp/reports
 RUN mkdir -p /tmp/dependency-check/data
 RUN /usr/share/dependency-check/bin/dependency-check.sh --updateonly --data /tmp/dependency-check/data
 
@@ -17,6 +18,6 @@ USER dependencycheck
 
 VOLUME ["/tmp/dependency-check/data"]
 
-WORKDIR /tmp/report
+WORKDIR /tmp/reports
 
 ENTRYPOINT ["/tmp/docker-entrypoint.sh"]
