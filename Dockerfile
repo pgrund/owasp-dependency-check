@@ -4,17 +4,17 @@ LABEL maintainer="Dick Snel <dick.snel@ictu.nl>"
 
 ENV PROJECT_NAME "generic"
 
+USER root
+
 RUN mkdir -p /tmp/reports
 RUN mkdir -p /tmp/dependency-check/data
 RUN /usr/share/dependency-check/bin/dependency-check.sh --updateonly --data /tmp/dependency-check/data
 
 ADD docker-entrypoint.sh /tmp/docker-entrypoint.sh
 
-USER root
-
 RUN chmod +x /tmp/docker-entrypoint.sh
 
-USER dependencycheck
+#USER dependencycheck
 
 VOLUME ["/tmp/dependency-check/data"]
 
