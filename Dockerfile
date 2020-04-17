@@ -21,3 +21,4 @@ VOLUME ["/tmp/dependency-check/data"]
 WORKDIR /tmp/reports
 
 ENTRYPOINT ["/tmp/docker-entrypoint.sh"]
+CMD ["--format 'ALL'"]
